@@ -7,6 +7,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "predeploy": "nuxt generate",
+    "deploy": "gh-pages -d dist",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js",
     "lintfix": "npm run lint:js -- --fix",
@@ -32,6 +34,7 @@
     "eslint": "^8.4.1",
     "eslint-plugin-nuxt": "^3.1.0",
     "eslint-plugin-vue": "^8.2.0",
+    "gh-pages": "^4.0.0",
     "jest": "^27.4.4",
     "nuxt-windicss": "^2",
     "vue-jest": "^3.0.4"
