@@ -2,6 +2,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/doohanas.github.io/'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'doohanas.github.io',
